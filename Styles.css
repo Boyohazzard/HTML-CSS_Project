@@ -170,13 +170,6 @@ body {
 }
 
 
-header {
-    background-color: rgb(46, 203, 224);
-    color: black;
-    padding: 15px;
-    text-align: center;
-}
-
 footer {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
@@ -185,23 +178,6 @@ footer {
     bottom : 0;
     width: 100%;
 
-}
-
-/* footer links*/
-
-ul {
-    padding: 0;
-    list-style: none;
-    word-spacing: 15px;
-}
-
-li {
-    display: inline;
-}
-
-a {
-    color: black;
-    text-decoration: none;
 }
 
 
