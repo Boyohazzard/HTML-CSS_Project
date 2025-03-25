@@ -7,6 +7,64 @@ body {
     box-sizing: border-box;
 }
 
+/*Top Bar*/
+
+.top-bar {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+
+    align-items: center;
+    
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #83e90f;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #83e90f;
+}
+
+
+/*reviews*/
+
 #reviews {
     text-align: center;
     padding: 50px 20px;
@@ -28,6 +86,7 @@ body {
     margin-right: 20px;
 }
 
+/*about*/
 
 #about {
     text-align: center;
@@ -64,6 +123,7 @@ body {
 .card h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
+    color: black
 }
 
 .card p {
@@ -109,6 +169,7 @@ body {
     margin-bottom: 15px;
 }
 
+
 header {
     background-color: rgb(46, 203, 224);
     color: black;
@@ -117,14 +178,13 @@ header {
 }
 
 footer {
-    background-color: rgb(46, 203, 224);
-    color: black;
-    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: left;
     padding: 10px;
-    position: fixed;
     bottom : 0;
     width: 100%;
-    font-size: 1.5em;
+
 }
 
 /* footer links*/
@@ -156,35 +216,6 @@ a {
     z-index: 1000;
 }
 
-/* Navigation Menu */
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background: transparent; 
-    border-bottom: 2px solid white;
-    padding-bottom: 20px;
-}
-
-/* Navigation Links */
-.navbar ul li {
-    margin: 0 20px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    padding: 10px 15px;
-    transition: color 0.3s;
-}
-
-.navbar ul li a:hover {
-    color: rgb(59, 56, 235); 
-}
-
 
 
 /* Contact Section Styles */
@@ -203,7 +234,7 @@ a {
 }
 
 /* Get In Touch Section */
-.contact-info {
+.contact-info1 {
     width: 30%;
 }
 
