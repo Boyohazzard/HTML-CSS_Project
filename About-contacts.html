@@ -13,9 +13,8 @@
 
     <!-- About Us Section -->
     <section id="about" style="background-image: url('Resources/back1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px; color: white;">
-    <section id="about">
         <header>
-            <nav>
+            <nav class="navbar">
                 <ul>
                     <li><a href="./Index.html">Index</a></li>
                     <li><a href="./About-contacts.html">Contact</a></li>
@@ -50,11 +49,57 @@
         </div>
     </section>
 
-    <!-- Contact Us Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to get in touch, feel free to reach out to us:</p>
+    
+    <!-- Contact Section -->
+    
 
+    <section id="contact-section">
+        
+    <!-- Get in Touch Section -->
+    <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out to us for any inquiries or assistance.</p>
+
+        <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+                <h3>Office</h3>
+                <p>20162 Majeedhee Magu Rd, Malé, Maldives</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+                <h3>Mobile</h3>
+                <p>+960 777-1234</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+                <h3>Email</h3>
+                <p>info@example.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="google-map">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.267467567538!2d73.53729221464273!3d4.170690297635042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b1b3b8f45d3e60f%3A0xb73966e870632b64!2s20162%20Majeedhee%20Magu%20Rd%2C%20Mal%C3%A9%2C%20Maldives!5e0!3m2!1sen!2sus!4v1677747311572!5m2!1sen!2sus" 
+            width="100%" 
+            height="300" 
+            style="border:0; border-radius: 10px;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+        
         <form action="#" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -67,7 +112,9 @@
 
             <button type="submit">Send Message</button>
         </form>
-    </section>
+    </div>
+</section>
+
 
 
     <footer>
