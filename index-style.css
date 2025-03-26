@@ -4,7 +4,7 @@ body{
     margin: 0;
     background-color: rgba(80, 217, 255, 0.297);
 }
-/* Change picture to a better image later and upload files*/
+/* Change placeholder to a better image and upload files*/
 header{ 
     background-image: url(https://wallpapercat.com/w/full/4/c/9/106937-3840x2160-desktop-4k-maldives-wallpaper.jpg);
     color: aquamarine;
@@ -28,7 +28,7 @@ hr{
     padding: 0;
     height: 1px;
     border-width: 0px;
-    background-color: rgba(78, 255, 237, 0.629);
+    background-color: rgba(255, 255, 255, 0.208);
     width: 100%;
     position: fixed;
 }
