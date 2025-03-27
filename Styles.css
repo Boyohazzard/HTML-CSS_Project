@@ -38,17 +38,24 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
+
+
+.logo a {
+    font-size: 35px;
     color: #83e90f;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    font-family: Seaweed Script;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
 }
-
 
 .nav-menu {
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 
 .nav-menu a {
