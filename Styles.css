@@ -38,12 +38,7 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
-    color: #83e90f;
-    display: flex;
-    align-items: center;
-}
+
 
 .logo a {
     font-size: 35px;
