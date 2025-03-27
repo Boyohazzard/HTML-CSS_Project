@@ -86,6 +86,17 @@ body {
     margin-right: 20px;
 }
 
+/* Grid Contained gallery*/
+.gallery-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    margin-left: 20px;  
+    margin-right: 20px;
+}
 /*about*/
 
 #about {
@@ -131,7 +142,37 @@ body {
     color: #555;
 }
 
+/* Gallery Cards */
 
+.gcard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.gcard:hover {
+    transform: translateY(-10px);
+}
+
+.gcard img {
+    width: 500px;
+    height: 300px;
+}
+
+.gcard h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: black
+}
+
+.gcard p {
+    font-size: 1em;
+    color: #555;
+}
 
 /*Tourism differences*/
 
@@ -168,13 +209,13 @@ body {
 }
 
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.948);
     color: #ffffff;
     text-align: left;
-    padding: 10px;
+    padding: 0px;
     bottom : 0;
     width: 100%;
-
+    position: static;
 }
 
 
