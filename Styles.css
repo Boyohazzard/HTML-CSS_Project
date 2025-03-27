@@ -139,6 +139,41 @@ h1{
     color: #555;
 }
 
+/* Index Cards*/
+
+.Icard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.Icard:hover {
+    transform: translateY(-10px);
+}
+
+.Icard img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+.Icard h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: black;
+    padding: 0px;
+}
+
+.Icard p {
+    font-size: 1em;
+    color: #555;
+}
+
+
 /* Gallery Cards */
 
 .gcard {
@@ -314,10 +349,90 @@ footer {
 
 
 
-.flavor-text{
+.flavor-text {
     color: black;
     font-size: 17px;
     text-align: center;
     font-weight: bold;
     font-family: albert sans;
+}
+
+.flavor-container {
+    width: 1100px;
+    margin: auto;
+}
+
+.flavor-text-home {
+    color: #ffffff;
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: albert sans;
+}
+
+.flavor-container-home {
+    width: 1100px;
+    margin: auto;
+    background-color: rgba(115, 212, 24, 0.822);
+    border-radius: 10px;
+}
+
+.booking {
+    border-radius: 20px;
+    background-color: rgba(115, 212, 24, 0.822);
+    margin: auto;
+    width: 125px;
+    font-size: 21px;
+}
+.booking a {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.booking a:hover {
+    color: #ffffff; 
+}
+
+/* id's for individual customization and for priority over class*/
+
+#titlecard1{
+    font-size: 24px;
+}
+
+#price1 {
+    font-style: bold;
+    font-size: 17px;
+}
+
+#desc1 {
+    font-size: 13px;
+}
+
+#titlecard2{
+    font-size: 24px;
+}
+
+#price2 {
+    font-style: bold;
+    font-size: 17px;
+}
+
+#desc2 {
+    font-size: 13px;
+}
+
+#titlecard3{
+    font-size: 24px;
+}
+
+#price3 {
+    font-style: bold;
+    font-size: 17px;
+}
+
+#desc3 {
+    font-size: 13px;
 }
